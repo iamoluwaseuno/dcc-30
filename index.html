@@ -691,8 +691,8 @@ function publishData(){
    3. Deploy → New deployment → Web app → Execute as: Me · Access: Anyone → Deploy.
    4. Paste the Web app URL between the quotes below. ✅
    ═══════════════════════════════════════════════════════════════ */
-const STORIES_API='https://script.google.com/macros/s/AKfycbzMSjJh4_43zRtgn_-2-Mlw8wcNkPTvKFq4aXOVivCO5XeXvrMv-1befX_lRBYlTCQ3Ng/exec'; // ← paste your Google Apps Script web app URL here
-let stories=JSON.parse(localStorage.getItem('dcc30Stories')||'[]');
+const STORIES_API='https://script.google.com/macros/s/AKfycbzMSjJh4_43zRtgn_-2-Mlw8wcNkPTvKFq4aXOVivCO5XeXvrMv-1befX_lRBYlTCQ3Ng/exec';
+  let stories=JSON.parse(localStorage.getItem('dcc30Stories')||'[]');
 let apiStories=[];
 function allStories(){
   const map=new Map();
