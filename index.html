@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DCC @30 — This Is What 30 Looks Like · #30IsYou | David's Christian Centre</title>
+<meta name="description" content="David's Christian Centre 30th Anniversary — Victory Celebration Schedule, September 2026. Mainland · Island  · Diaspora. #30IsYou">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--purple:#6d28d9;--purple2:#9333ea;--violet:#3b1a70;--pink:#f3e8ff;--green:#0f9d76;--green2:#0b7a5c;--greenbg:#eafaf2;--gold:#f59e0b;--ink:#241b3a;--muted:#6b6480;--bg:#fbf9ff;--card:#fff;--shadow:0 10px 30px rgba(60,20,120,.12)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--ink);overflow-x:hidden}
+h1,h2,h3{font-family:'Bebas Neue',sans-serif;letter-spacing:.03em}
+img{max-width:100%}
+.btn{display:inline-flex;align-items:center;gap:8px;border:none;cursor:pointer;font:800 14px 'Montserrat';padding:14px 26px;border-radius:999px;text-decoration:none;transition:.25s;letter-spacing:.05em}
+.btn-purple{background:linear-gradient(135deg,var(--purple),var(--purple2));color:#fff;box-shadow:0 8px 20px rgba(109,40,217,.35)}
+.btn-green{background:linear-gradient(135deg,var(--green),#12b98b);color:#fff;box-shadow:0 8px 20px rgba(15,157,118,.35)}
+.btn-outline{background:#fff;color:var(--purple);border:2px solid var(--purple)}
+.btn:hover{transform:translateY(-3px) scale(1.03)}
+nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:12px 5%;background:rgba(255,255,255,.88);backdrop-filter:blur(12px);box-shadow:0 2px 20px rgba(60,20,120,.08)}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;cursor:pointer}
+.logo .l30{font:900 26px 'Bebas Neue';background:linear-gradient(135deg,var(--purple),var(--purple2));color:#fff;padding:2px 12px;border-radius:10px;transform:skew(-6deg)}
+.logo b{color:var(--violet);font-size:14px;letter-spacing:.08em}
+.logo small{display:block;color:var(--green);font-weight:800;font-size:10px;letter-spacing:.2em}
+.nav-links{display:flex;gap:22px;align-items:center}
+.nav-links a{text-decoration:none;color:var(--ink);font-weight:700;font-size:13px;letter-spacing:.06em}
+.nav-links a:hover{color:var(--purple)}
+@media(max-width:820px){.nav-links a:not(.btn){display:none}}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 5% 70px;background:repeating-radial-gradient(circle at 50% 42%, rgba(147,51,234,.10) 0 3px, transparent 3px 90px),linear-gradient(180deg,#fdfbff,#f6efff 60%,#fff)}
+.kicker{font-weight:800;font-size:12px;letter-spacing:.35em;color:var(--green);margin-bottom:18px}
+.headline{display:flex;align-items:center;justify-content:center;gap:2vw;flex-wrap:wrap}
+.hl{font:900 clamp(44px,7vw,96px)/0.9 'Bebas Neue';color:var(--purple)}
+.hl.right{color:var(--violet)}
+.thirty{position:relative;line-height:.8;font:900 clamp(140px,24vw,300px)/0.8 'Bebas Neue'}
+.thirty .num{background:linear-gradient(160deg,var(--purple2),var(--purple) 45%,var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 12px 24px rgba(109,40,217,.35))}
+.thirty img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.ribbon{display:inline-block;margin:22px auto 6px;background:linear-gradient(90deg,var(--green),#12b98b);color:#fff;font-weight:900;font-size:12px;letter-spacing:.3em;padding:10px 26px;clip-path:polygon(4% 0,96% 0,100% 50%,96% 100%,4% 100%,0 50%)}
+.sub{font-weight:900;letter-spacing:.22em;color:var(--purple);font-size:clamp(13px,2vw,21px);margin:14px 0 8px}
+.sub2{font-weight:700;letter-spacing:.12em;color:var(--muted);font-size:clamp(11px,1.4vw,14px);margin-bottom:26px}
+.countdown{display:flex;gap:14px;justify-content:center;margin-bottom:30px;flex-wrap:wrap}
+.cd{background:#fff;border:2px solid var(--pink);border-radius:16px;min-width:86px;padding:14px 10px;box-shadow:var(--shadow)}
+.cd b{display:block;font:900 40px 'Bebas Neue';color:var(--purple)}
+.cd span{font-size:10px;font-weight:800;letter-spacing:.25em;color:var(--muted)}
+.cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.marquee{overflow:hidden;background:linear-gradient(90deg,var(--purple),var(--purple2));padding:14px 0;white-space:nowrap}
+.marquee .track{display:inline-block;animation:mq 22s linear infinite}
+.marquee span{display:inline-block;padding:0 22px;color:#fff;font-weight:900;letter-spacing:.2em;font-size:13px}
+@keyframes mq{to{transform:translateX(-50%)}}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px;max-width:1100px;margin:50px auto 0;padding:0 5%;position:relative;z-index:5}
+.stat{background:#fff;border-radius:18px;box-shadow:var(--shadow);text-align:center;padding:26px 14px;border-top:5px solid var(--purple)}
+.stat:nth-child(2){border-color:var(--green)}.stat:nth-child(3){border-color:var(--gold)}.stat:nth-child(4){border-color:#e11d48}
+.stat b{display:block;font:900 46px/1 'Bebas Neue';color:var(--violet)}
+.stat span{display:block;font-size:11px;font-weight:800;letter-spacing:.18em;color:var(--muted);margin-top:8px}
+.schedule{background:linear-gradient(180deg,var(--greenbg),#fff);padding:90px 5% 70px;margin-top:60px}
+.sch-head{text-align:center;margin-bottom:26px}
+.tag{display:inline-block;color:#fff;font-weight:900;font-size:11px;letter-spacing:.3em;padding:8px 22px;border-radius:999px}
+.tag-g{background:var(--green)}.tag-p{background:var(--purple)}
+.sch-head h2{font-size:clamp(40px,6vw,72px);color:var(--green2);margin-top:10px}
+.sch-head p{color:var(--muted);font-weight:700;letter-spacing:.2em}
+.admin-banner{display:none;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;max-width:980px;margin:0 auto 20px;background:#fff7e6;border:2px dashed var(--gold);border-radius:14px;padding:10px 18px;font-size:12px;font-weight:800;color:#92400e}
+body.admin .admin-banner{display:flex}
+.admin-banner button{border:none;cursor:pointer;border-radius:999px;padding:8px 16px;font:800 11px 'Montserrat'}
+.addb{background:var(--green);color:#fff}.lockb{background:#e5e0f5;color:var(--violet)}.pubb{background:var(--gold);color:#fff}
+.toolbar{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;align-items:center;max-width:1100px;margin:0 auto 34px}
+.search{flex:1;min-width:220px;max-width:340px;position:relative}
+.search input{width:100%;padding:13px 18px 13px 44px;border-radius:999px;border:2px solid #d9f2e7;background:#fff;font:600 14px 'Montserrat';outline:none}
+.search::before{content:"🔍";position:absolute;left:16px;top:50%;transform:translateY(-50%)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.chip{border:2px solid #cdeedd;background:#fff;border-radius:999px;padding:10px 18px;font:800 12px 'Montserrat';letter-spacing:.06em;color:var(--green2);cursor:pointer}
+.chip.active,.chip:hover{background:var(--green);border-color:var(--green);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:22px;max-width:1200px;margin:0 auto}
+.event-card{--ac:var(--purple);position:relative;background:var(--card);border-radius:18px;box-shadow:var(--shadow);border-top:7px solid var(--ac);display:flex;flex-direction:column;overflow:hidden;animation:pop .5s both;transition:.25s}
+.event-card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(60,20,120,.18)}
+@keyframes pop{from{opacity:0;transform:translateY(26px)}to{opacity:1}}
+.flyer{position:relative;aspect-ratio:4/5;background:#fff;flex-shrink:0}
+.flyer img{width:100%;height:100%;object-fit:contain;display:block}
+.flyer-ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#fff;padding:12px;text-align:center;background:linear-gradient(135deg,var(--ac),#241b3a)}
+.flyer-ph .em{font-size:46px}
+.flyer-ph .t{font:900 20px/1.1 'Bebas Neue';letter-spacing:.08em}
+.fnav{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border-radius:50%;border:none;background:rgba(36,27,58,.65);color:#fff;font-size:20px;font-weight:900;cursor:pointer;z-index:2}
+.fnav:hover{background:var(--purple)}
+.fnav.prev{left:8px}.fnav.next{right:8px}
+.flyer-count{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.55);color:#fff;font:800 10px 'Montserrat';padding:5px 10px;border-radius:999px;pointer-events:none}
+.card-body{display:flex;gap:14px;padding:18px}
+.date-badge{flex:0 0 60px;height:66px;border-radius:14px;background:var(--ac);background:linear-gradient(160deg,var(--ac),#241b3a);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.date-badge .d{font:900 28px 'Bebas Neue';line-height:1}
+.date-badge .m{font-size:10px;font-weight:900;letter-spacing:.2em}
+.info{flex:1;min-width:0}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
+.tags span{font-size:10px;font-weight:900;letter-spacing:.08em;padding:4px 10px;border-radius:999px}
+.tag-cat{background:#f3e8ff;color:var(--ac)}
+.tag-loc{background:#eafaf2;color:var(--green2)}
+.tag-reg{background:#fef3c7;color:#92400e}
+.tag-new{background:#fff7e6;color:#b45309}
+.info h3{font-size:23px;line-height:1;color:var(--violet)}
+.when{font-size:12.5px;font-weight:700;margin-top:6px}
+.note{font-size:11.5px;color:var(--muted);font-weight:600;margin-top:3px}
+.evcd{font-size:11px;font-weight:900;color:var(--green2);margin-top:6px;letter-spacing:.05em}
+.card-actions{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.ics,.shr,.edt{border-radius:999px;padding:7px 14px;font:800 11px 'Montserrat';cursor:pointer;background:#fff;transition:.2s;border:2px solid}
+.ics{border-color:var(--ac);color:var(--ac)}.ics:hover{background:var(--ac);color:#fff}
+.shr{border-color:var(--green);color:var(--green)}.shr:hover{background:var(--green);color:#fff}
+.edt{border-color:var(--violet);color:var(--violet)}.edt:hover{background:var(--violet);color:#fff}
+.reg{background:linear-gradient(135deg,var(--gold),#d97706);color:#fff;border-radius:999px;padding:9px 16px;font:800 11px 'Montserrat';text-decoration:none;box-shadow:0 6px 14px rgba(245,158,11,.4)}
+.del,.editb{position:absolute;width:28px;height:28px;border-radius:50%;border:none;font-weight:900;cursor:pointer;display:none;z-index:3;top:10px}
+.del{right:10px;background:rgba(254,226,226,.95);color:#dc2626}
+.editb{right:46px;background:rgba(237,233,254,.95);color:var(--purple)}
+body.admin .del,body.admin .editb{display:block}
+.del:hover{background:#dc2626;color:#fff}.editb:hover{background:var(--purple);color:#fff}
+.empty{text-align:center;color:var(--muted);font-weight:700;padding:50px 0;grid-column:1/-1}
+.admin-only{display:none!important}
+body.admin .admin-only{display:inline-flex!important}
+.stories,.studio{padding:90px 5% 80px}
+.studio{background:linear-gradient(180deg,#fff,#f6efff 70%,#fff)}
+.stories{background:linear-gradient(180deg,var(--greenbg),#fff)}
+.st-head{text-align:center;margin-bottom:36px}
+.st-head h2{font-size:clamp(40px,6vw,72px);margin-top:10px}
+.stories .st-head h2{color:var(--green2)}
+.studio .st-head h2{color:var(--purple)}
+.st-head p{color:var(--muted);font-weight:700;letter-spacing:.2em;font-size:12px}
+.story-wrap,.studio-wrap{display:grid;grid-template-columns:430px 1fr;gap:30px;max-width:1200px;margin:0 auto;align-items:start}
+@media(max-width:980px){.story-wrap,.studio-wrap{grid-template-columns:1fr}}
+.st-controls{background:#fff;border-radius:20px;box-shadow:var(--shadow);padding:26px;display:flex;flex-direction:column;gap:14px}
+.stories .st-controls{border-top:7px solid var(--green)}
+.studio .st-controls{border-top:7px solid var(--purple)}
+.upl{border:3px dashed #d9c9ff;border-radius:16px;padding:20px;text-align:center;cursor:pointer;background:#fbfaff}
+.upl:hover{border-color:var(--purple);background:var(--pink)}
+.upl b{display:block;color:var(--purple);font-size:15px}
+.upl span{font-size:11px;color:var(--muted);font-weight:600}
+.ctl{display:flex;flex-direction:column;gap:6px;font-size:11px;font-weight:900;letter-spacing:.08em;color:var(--violet)}
+.ctl select,.ctl input[type=text],.ctl textarea{padding:12px 14px;border-radius:12px;border:2px solid #e5e0f5;font:600 14px 'Montserrat';outline:none;background:#fbfaff;resize:vertical}
+.ctl input[type=range]{accent-color:var(--purple)}
+.ctl input[type=file]{font:600 12px 'Montserrat'}
+.st-btns{display:flex;gap:10px;flex-wrap:wrap}
+.st-btns .btn{padding:12px 18px;font-size:12px}
+.st-tip{font-size:11px;color:var(--muted);font-weight:600}
+.st-preview{display:flex;justify-content:center}
+#studioCanvas,#storyCanvas{width:100%;max-width:540px;height:auto;border-radius:20px;box-shadow:var(--shadow)}
+#studioCanvas{touch-action:none;cursor:grab}
+.cap-box{border-top:3px dashed #e5e0f5;padding-top:18px;display:flex;flex-direction:column;gap:12px}
+.cap-box>b{font-size:13px;letter-spacing:.1em;color:var(--green2)}
+.cap-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.cap-grid select{padding:12px 14px;border-radius:12px;border:2px solid #e5e0f5;font:600 13px 'Montserrat';outline:none;background:#fbfaff}
+#capOut{width:100%;border:2px solid #e5e0f5;border-radius:14px;padding:14px;font:600 13px/1.6 'Montserrat';background:#fbfaff;outline:none;resize:vertical}
+@media(max-width:640px){.cap-grid{grid-template-columns:1fr}}
+.wall-head{text-align:center;margin:60px auto 10px}
+.wall-head h3{font-size:34px;color:var(--green2)}
+.wall-head p{font-size:12px;font-weight:800;letter-spacing:.2em;color:var(--muted)}
+.wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;max-width:1200px;margin:24px auto 0}
+.wall-card{background:#fff;border-radius:18px;box-shadow:var(--shadow);padding:20px;border-top:6px solid var(--green);display:flex;flex-direction:column;gap:10px;animation:pop .5s both}
+.wc-head{display:flex;gap:12px;align-items:center}
+.wc-head img{width:56px;height:56px;border-radius:50%;object-fit:cover}
+.wc-ava{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--purple),var(--purple2));color:#fff;display:flex;align-items:center;justify-content:center;font:900 24px 'Bebas Neue';flex-shrink:0}
+.wc-name b{display:block;font-size:14px;color:var(--violet)}
+.wc-name span{font-size:10px;font-weight:800;color:var(--muted);letter-spacing:.08em}
+.wc-story{font-size:12.5px;font-weight:600;color:var(--ink);white-space:pre-line;max-height:170px;overflow:auto}
+.verse{background:linear-gradient(135deg,var(--violet),var(--purple));color:#fff;text-align:center;padding:70px 8%}
+.verse h2{font-size:clamp(34px,5vw,60px)}
+.verse p{font-weight:700;opacity:.85;letter-spacing:.15em;font-size:12px;margin-top:8px}
+footer{background:#17102b;color:#cfc8e2;padding:60px 5% 30px;text-align:center}
+footer .f30{font:900 60px 'Bebas Neue';background:linear-gradient(135deg,#a855f7,#f0abfc);-webkit-background-clip:text;background-clip:text;color:transparent}
+footer a{color:#a855f7;text-decoration:none;font-weight:700}
+.socials{display:flex;gap:14px;justify-content:center;margin:20px 0;flex-wrap:wrap}
+.socials a{background:#241b3a;padding:10px 20px;border-radius:999px;font-size:12px}
+.copy{font-size:11px;opacity:.6;margin-top:22px;letter-spacing:.1em}
+.stafflock{background:none;border:none;color:#cfc8e2;opacity:.35;cursor:pointer;font-size:12px;margin-top:10px}
+.fab{position:fixed;right:22px;bottom:22px;z-index:60;background:linear-gradient(135deg,var(--green),#12b98b);color:#fff;border:none;border-radius:999px;padding:16px 24px;font:900 14px 'Montserrat';cursor:pointer;box-shadow:0 12px 30px rgba(15,157,118,.45)}
+.overlay{position:fixed;inset:0;z-index:100;background:rgba(23,10,45,.6);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:.25s}
+.overlay.open{opacity:1;pointer-events:auto}
+.modal{background:#fff;border-radius:22px;max-width:640px;width:100%;max-height:90vh;overflow:auto;padding:34px;position:relative;transform:translateY(20px) scale(.97);transition:.25s;border-top:8px solid var(--green)}
+.overlay.open .modal{transform:none}
+.modal h3{font-size:36px;color:var(--green2)}
+.modal .hint{font-size:12px;color:var(--muted);font-weight:600;margin-bottom:18px}
+.close{position:absolute;top:14px;right:16px;width:34px;height:34px;border-radius:50%;border:none;background:var(--pink);color:var(--purple);font-size:18px;font-weight:900;cursor:pointer;z-index:5}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form label{display:flex;flex-direction:column;gap:6px;font-size:11px;font-weight:900;letter-spacing:.08em;color:var(--violet)}
+.form .wide{grid-column:1/-1}
+.form input,.form select{padding:12px 14px;border-radius:12px;border:2px solid #e5e0f5;font:600 14px 'Montserrat';outline:none;background:#fbfaff}
+.form .btn{grid-column:1/-1;justify-content:center}
+@media(max-width:560px){.form{grid-template-columns:1fr}}
+canvas#confetti{position:fixed;inset:0;pointer-events:none;z-index:200}
+.reveal{opacity:0;transform:translateY(30px);transition:.7s}
+.reveal.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<canvas id="confetti"></canvas>
+<nav>
+  <a class="logo" id="logo" href="#home"><span class="l30">30</span><span><b>DAVID'S CHRISTIAN CENTRE</b><small>WIRED TO WIN · #30ISYOU</small></span></a>
+  <div class="nav-links">
+    <a href="#home">HOME</a><a href="#schedule">SCHEDULE</a><a href="#stories">STORIES</a><a href="#studio">SHARE KIT</a>
+    <a href="https://davidschristiancentre.org" target="_blank">DCC.ORG</a>
+    <button class="btn btn-green admin-only" onclick="openModal()">+ ADD EVENT</button>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div>
+    <p class="kicker">DAVID'S CHRISTIAN CENTRE @30</p>
+    <div class="headline">
+      <span class="hl">THIS IS<br>WHAT</span>
+      <span class="thirty"><span class="num">30</span><img src="dcc-30.png" alt="30" onerror="this.style.display='none'"></span>
+      <span class="hl right">LOOKS<br>LIKE</span>
+    </div>
+    <div class="ribbon">YEARS ANNIVERSARY · WIRED TO WIN</div>
+    <p class="sub">#30ISYOU — EVERYTHING WE'VE BUILT FOR 30 YEARS IS YOU 💜</p>
+    <p class="sub2">ONE FAMILY · EVERY NATION · COUNTLESS LIVES TOUCHED · #DCC@30 EVENT CELEBRATIONS</p>
+    <div class="countdown">
+      <div class="cd"><b id="cd-d">0</b><span>DAYS</span></div>
+      <div class="cd"><b id="cd-h">0</b><span>HOURS</span></div>
+      <div class="cd"><b id="cd-m">0</b><span>MINS</span></div>
+      <div class="cd"><b id="cd-s">0</b><span>SECS</span></div>
+    </div>
+    <div class="cta">
+      <a class="btn btn-purple" href="#schedule">📅 VIEW SCHEDULE</a>
+      <a class="btn btn-green" href="#stories">💜 SHARE YOUR DCC STORY</a>
+      <a class="btn btn-outline" href="#studio">🎨 MAKE MY #30ISYOU FRAME</a>
+    </div>
+  </div>
+</header>
+
+<div class="marquee"><div class="track" id="mq">
+  <span>#30ISYOU ✦</span><span>CONFERENCE ✦</span><span>VICTORY CELEBRATIONS SERVICE EVERY SUNDAY ✦</span><span>PRAISE PARTY ✦</span><span>FAMILY FUN DAY ✦</span><span>AWARD NIGHT ✦</span><span>MAINLAND · ISLAND · GHANA · DIASPORA ✦</span><span>SHARE YOUR DCC STORY ✦</span>
+</div></div>
+
+<div class="stats">
+  <div class="stat reveal"><b data-count="30">0</b><span>YEARS OF VICTORY</span></div>
+  <div class="stat reveal"><b>🌍</b><span>MINISTRIES WITHOUT BORDERS </span></div>
+  <div class="stat reveal"><b data-count="16">0</b><span>CELEBRATIONS THIS SEPT</span></div>
+  <div class="stat reveal"><b data-count="1">0</b><span>FAMILY · COUNTLESS LIVES TOUCHED WORLDWIDE</span></div>
+</div>
+
+<section class="schedule" id="schedule">
+  <div class="sch-head reveal">
+    <span class="tag tag-g">SEPTEMBER 2026</span>
+    <h2>VICTORY CELEBRATION SCHEDULE</h2>
+    <p>CONFERENCE · THANKSGIVING · FAMILY · AWARDS & MORE</p>
+  </div>
+  <div class="admin-banner">
+    🔓 <b>STAFF MODE</b> — ✏️ edit any event · + add new ·
+    <button class="addb" onclick="openModal()">+ ADD EVENT</button>
+    <button class="pubb" onclick="publishData()">⬇️ EXPORT dcc30-data.json (publish events + stories to all users)</button>
+    <button class="lockb" onclick="lockAdmin()">🔒 LOCK</button>
+  </div>
+  <div class="toolbar">
+    <div class="search"><input id="searchBox" type="text" placeholder="Search events…"></div>
+    <div class="chips" id="chips">
+      <button class="chip active" data-loc="All">ALL</button>
+      <button class="chip" data-loc="Mainland">MAINLAND</button>
+      <button class="chip" data-loc="Island">ISLAND</button>
+      <button class="chip" data-loc="Ghana">GHANA</button>
+    </div>
+  </div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="stories" id="stories">
+  <div class="st-head reveal">
+    <span class="tag tag-g">TESTIMONIES</span>
+    <h2>SHARE YOUR DCC STORY</h2>
+    <p>30 YEARS · COUNTLESS STORIES FROM EVERY NATION — TELL YOURS · #30ISYOU</p>
+  </div>
+  <div class="story-wrap">
+    <div class="st-controls">
+      <label class="ctl">YOUR NAME *<input type="text" id="stName" placeholder="e.g. Sister Amaka Obi"></label>
+      <label class="ctl">YOUR PHOTO (optional)<input type="file" id="stPhoto" accept="image/*"></label>
+      <div class="cap-grid">
+        <label class="ctl">YEARS AT DCC<select id="stYears">
+          <option value="">—</option><option>1–5 yrs</option><option>6–10 yrs</option>
+          <option>11–20 yrs</option><option>21–29 yrs</option><option>30 yrs — Day One! 🎉</option>
+        </select></label>
+        <label class="ctl">WHERE YOU'RE WATCHING FROM<select id="stCampus">
+          <option>Mainland</option><option>Island</option><option>Both</option><option>Ghana</option><option>Diaspora / Online 🌍</option>
+        </select></label>
+      </div>
+      <label class="ctl">YOUR STORY *<textarea id="stText" rows="5" placeholder="What has God done in your life through DCC? How did you find the church? Share a memorable moment…"></textarea></label>
+      <div class="st-btns">
+        <button class="btn btn-purple" id="stDownload">⬇️ DOWNLOAD CARD</button>
+        <button class="btn btn-green" id="stShare">📤 SHARE STORY</button>
+      </div>
+      <div class="st-btns">
+        <button class="btn btn-outline" id="stCopy">📋 COPY TEXT</button>
+        <button class="btn btn-green" id="stWa">💬 SEND TO DCC (WhatsApp)</button>
+      </div>
+      <button class="btn btn-purple" id="stPost">🙌 POST ON THE STORY WALL</button>
+      <p class="st-tip">💎  <b>#30IsYou</b>!</p>
+    </div>
+    <div class="st-preview"><canvas id="storyCanvas" width="1080" height="1350"></canvas></div>
+  </div>
+  <div class="wall-head"><h3>🧱 THE DCC @30 STORY WALL</h3><p id="wallCount"></p></div>
+  <div class="wall" id="wall"></div>
+</section>
+
+<section class="studio" id="studio">
+  <div class="st-head reveal">
+    <span class="tag tag-p">SHARE KIT</span>
+    <h2>MAKE YOUR "#30ISYOU" FRAME</h2>
+    <p>STYLE YOUR PHOTO · ADD A CAPTION · COPY · SHARE · #30ISYOU</p>
+  </div>
+  <div class="studio-wrap">
+    <div class="st-controls">
+      <label class="upl">📸 <b>UPLOAD YOUR PHOTO</b><span>JPG/PNG · never leaves your device · shows on ALL frame styles</span>
+        <input type="file" id="photoInput" accept="image/*" hidden></label>
+      <label class="ctl">FRAME STYLE
+        <select id="styleSel">
+          <option value="classic">💜 Classic Purple — This Is What 30 Looks Like</option>
+          <option value="victory">💚 Victory Green — 30 Years Anniversary</option>
+          <option value="circle">⭕ Avatar Ring — DCC @30</option>
+        </select></label>
+      <label class="ctl">FORMAT
+        <select id="fmtSel">
+          <option value="1350">📱 1080 × 1350 (Instagram portrait)</option>
+          <option value="1080">⬜ 1080 × 1080 (Perfect square)</option>
+        </select></label>
+      <label class="ctl">ZOOM PHOTO <input type="range" id="zoomRange" min="1" max="3" step="0.05" value="1"></label>
+      <label class="ctl">YOUR NAME / HANDLE (optional) <input type="text" id="nameInput" placeholder="e.g. Sis. Amaka · @myhandle"></label>
+      <div class="st-btns">
+        <button class="btn btn-purple" id="downloadBtn">⬇️ DOWNLOAD FRAME</button>
+        <button class="btn btn-green" id="shareBtn">📤 SHARE FRAME</button>
+      </div>
+      <div class="cap-box">
+        <b>📣 AUTO CAPTION GENERATOR — thousands of variations, copy & post!</b>
+        <div class="cap-grid">
+          <select id="capEvent"></select>
+          <select id="capTone">
+            <option value="hype">🔥 Hype</option><option value="invite">✉️ Invitation</option>
+            <option value="thanks">🙏 Gratitude</option><option value="fun">🎈 Fun</option>
+          </select>
+        </div>
+        <div class="st-btns">
+          <button class="btn btn-purple" id="capGen">✨ NEW CAPTION</button>
+          <button class="btn btn-outline" id="capCopy">📋 COPY</button>
+          <button class="btn btn-green" id="capShare">📤 SHARE</button>
+        </div>
+        <textarea id="capOut" rows="6" placeholder="A caption auto-generates when you pick an event & tone — tap ✨ NEW CAPTION for endless fresh variations! ✍️"></textarea>
+        <p class="st-tip">💡 Captions auto-update when you change event/tone. SHARE FRAME attaches the caption on phones.</p>
+      </div>
+    </div>
+    <div class="st-preview"><canvas id="studioCanvas" width="1080" height="1350"></canvas></div>
+  </div>
+</section>
+
+<section class="verse reveal">
+  <h2>"AS DAVID NEVER LOST A BATTLE…"</h2>
+  <p>30 YEARS OF GRACE · WIRED TO WIN · #30ISYOU — EVERYTHING WE'VE BUILT IS YOU</p>
+</section>
+
+<footer>
+  <div class="f30">DCC @30 · #30ISYOU</div>
+  <p>David's Christian Centre <a href="https://davidschristiancentre.org" target="_blank">davidschristiancentre.org</a></p>
+  <div class="socials">
+    <a href="#">▶ YouTube · David's Christian Centre</a>
+    <a href="#">📻 Mixlr · David's Christian Centre</a>
+    <a href="#">📷 @DCCLAGOS / DCCISLANDCHURCH</a>
+  </div>
+  <p class="copy">© 2026 DAVID'S CHRISTIAN CENTRE · 30 YEARS · WIRED TO WIN · #30ISYOU</p>
+  <button class="stafflock" onclick="unlockAdmin()" title="Staff access">🔒 staff</button>
+</footer>
+
+<button class="fab admin-only" onclick="openModal()">＋ ADD EVENT</button>
+
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <button class="close" onclick="closeModal()">✕</button>
+    <h3 id="modalTitle">ADD A NEW EVENT</h3>
+    <p class="hint">🔐 Staff only. Changes apply instantly — use EXPORT in the staff banner to publish for all users.</p>
+    <form class="form" id="eventForm">
+      <input type="hidden" name="editId" value="">
+      <label class="wide">EVENT TITLE *<input name="title" required placeholder="e.g. Praise Party Night"></label>
+      <label>CATEGORY<select name="cat">
+        <option>Conference</option><option>Worship</option><option>Music</option><option>Family</option>
+        <option>Marriage</option><option>Awards</option><option>Comedy</option><option>Games</option>
+        <option>Teaching</option><option>Special</option></select></label>
+      <label>LOCATION<select name="loc">
+        <option>Mainland</option><option>Island</option><option>Mainland & Island</option>
+        <option>Ghana</option><option>Diaspora / Online</option></select></label>
+      <label>DATE<input type="date" name="date"></label>
+      <label>TIME<input type="time" name="time"></label>
+      <label>END DATE (optional)<input type="date" name="end"></label>
+      <label>DISPLAY DATE TEXT<input name="dateText" placeholder="e.g. Sun 6th Sept"></label>
+      <label class="wide">FLYER IMAGE FILE (optional — overrides the code flyer)<input type="file" name="flyerFile" accept="image/*"><span id="flyerNote" style="font-size:10px;color:var(--green)"></span></label>
+      <label class="wide">…OR FLYER URL / PATH (optional)<input name="flyer" placeholder="flyers/my-event.png or https://…"></label>
+      <label class="wide">REGISTRATION LINK (optional)<input name="reg" type="url" placeholder="https://forms.gle/…"></label>
+      <label class="wide">NOTE (optional)<input name="note" placeholder="e.g. Mainland only · venue"></label>
+      <button class="btn btn-green" type="submit">SAVE EVENT ✨</button>
+      <button class="btn btn-outline" type="button" id="resetEv" style="display:none" onclick="resetEvent()">↺ RESTORE ORIGINAL DETAILS</button>
+    </form>
+  </div>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════
+   🖼️  EVENT FLYER IMAGES — EDIT HERE (easy to locate!)
+   ═══════════════════════════════════════════════════════════════ */
+const PLACEHOLDER_FLYER='flyers/grow.png';
+const EVENT_FLYERS={
+  conf:'flyers/vcsM.jpeg',   // ← (kept as you listed — change this line if Conference has its own file)
+  grow:'flyers/grow.png',
+  vcsM:'flyers/VictoryCelebrationsService.jpeg',
+  vcsI:'flyers/VictoryCelebrationsService.jpeg',
+  thanksM:'flyers/Thanksgiving ServiceM.jpeg',
+  thanksI:'flyers/thanksisland.jpeg',
+  ldmI:'flyers/Ldmi.png',
+  ldmM:'flyers/LdmM.png',
+  ffd:'flyers/FamilyFunDay.jpeg',
+  elevate:'flyers/elevate.jpg',
+  novelty:'flyers/Novelty.jpeg',
+  comedy:'flyers/ComedyGoesEdition.jpeg',
+  praise:'flyers/praise.jpg',
+  awards:'flyers/award.jpeg',
+  blueprint:'flyers/The Blueprint — Anniversary Edition.jpeg'
+};
+/* ═══════════ end of flyer images ═══════════ */
+
+/* ============ STAFF ACCESS ============ */
+const ADMIN_PASS='DCC30ADMIN'; // ← change to your own password
+let adminMode=sessionStorage.getItem('dcc30admin')==='1';
+if(adminMode)document.body.classList.add('admin');
+let logoClicks=0,logoTimer=null;
+document.getElementById('logo').addEventListener('click',()=>{logoClicks++;clearTimeout(logoTimer);logoTimer=setTimeout(()=>logoClicks=0,2500);if(logoClicks>=5){logoClicks=0;unlockAdmin();}});
+document.addEventListener('keydown',e=>{if(e.ctrlKey&&e.shiftKey&&(e.key==='A'||e.key==='a')){e.preventDefault();unlockAdmin();}if(e.key==='Escape')closeModal();});
+function unlockAdmin(){if(adminMode)return;const p=prompt('🔐 Staff access — enter admin password:');if(p===null)return;if(p===ADMIN_PASS){adminMode=true;sessionStorage.setItem('dcc30admin','1');document.body.classList.add('admin');render();burst(160);}else alert('❌ Wrong password.');}
+function lockAdmin(){adminMode=false;sessionStorage.removeItem('dcc30admin');document.body.classList.remove('admin');render();}
+
+/* ================= DATA ================= */
+const CATS={Conference:{e:'🎤',c:'#7c3aed'},Worship:{e:'🙌',c:'#0f9d76'},Marriage:{e:'❤️',c:'#e11d48'},Family:{e:'🎈',c:'#f59e0b'},Games:{e:'🎲',c:'#0ea5e9'},Comedy:{e:'😂',c:'#f97316'},Music:{e:'🎵',c:'#db2777'},Awards:{e:'🏆',c:'#b45309'},Teaching:{e:'📘',c:'#0d9488'},Special:{e:'✨',c:'#6d28d9'}};
+const BASE_EVENTS=[
+ {id:'conf',title:'Victory Celebrations Conference 2026',cat:'Conference',loc:'Mainland',dateText:'Tues 1st – Fri 4th Sept',time:'6:00 PM',day:1,start:'2026-09-01T18:00',end:'2026-09-04T20:00',note:'Mainland only · Victory Dome, Amuwo Odofin, Lagos'},
+ {id:'grow',title:'GROW — Pastors, Ministers & Church Workers',cat:'Teaching',loc:'Mainland',dateText:'Wed 2nd – Sat 5th Sept',time:'8:00 AM',day:2,start:'2026-09-02T08:00',end:'2026-09-05T14:00',note:'Mainland only · Victory Dome · Attendance FREE · Registration required',reg:'https://forms.davidschristiancentre.org/grow26/'},
+ {id:'vcsM',title:'Victory Celebrations Service — MAINLAND',cat:'Worship',loc:'Mainland',dateText:'All Sundays in Sept (6, 13, 20, 27)',time:'7:00 AM & 9:00 AM',day:6,rec:{sun:[6,13,20,27],times:['07:00','09:00']},start:'2026-09-06T07:00',end:'2026-09-06T12:00',note:'Every Sunday of the anniversary month · Victory Dome, Amuwo Odofin, Lagos'},
+ {id:'vcsI',title:'Victory Celebrations Service — ISLAND',cat:'Worship',loc:'Island',dateText:'All Sundays in Sept (6, 13, 20, 27)',time:'11:00 AM',day:6,rec:{sun:[6,13,20,27],times:['11:00']},start:'2026-09-06T11:00',end:'2026-09-06T13:30',note:'Every Sunday of the anniversary month · Elegushi Beach Road, Lekki, Lagos'},
+ {id:'thanksM',title:'Thanksgiving Service — MAINLAND',cat:'Worship',loc:'Mainland',dateText:'Sun 6th Sept [Combined Service]',time:'8:00 AM',day:6,start:'2026-09-06T08:00',end:'2026-09-06T10:30',note:'Victory Dome, Behind PHCN, Fatgbems Bus-stop, Amuwo Odofin, Lagos'},
+ {id:'thanksI',title:'Thanksgiving Service — ISLAND',cat:'Worship',loc:'Island',dateText:'Sun 6th Sept [Combined Service]',time:'11:00 AM',day:6,start:'2026-09-06T11:00',end:'2026-09-06T13:30',note:'Beside Meadow Hall, Elegushi Beach Road, after 3rd Roundabout, Lekki, Lagos'},
+ {id:'ldmI',title:'Love, Dating & Marriage — ISLAND',cat:'Marriage',loc:'Island',dateText:'Fri 11th Sept',time:'6:30 PM',day:11,start:'2026-09-11T18:30',end:'2026-09-11T21:00',note:'Anniversary Edition · Island campus, Lekki'},
+ {id:'ffd',title:'Family Fun Day',cat:'Family',loc:'Mainland & Island',dateText:'Saturday 12th September',time:'10:00 AM',day:12,start:'2026-09-12T10:00',end:'2026-09-12T16:00',note:'Same time on both campuses · a fun-filled celebration for the whole family'},
+ {id:'ldmM',title:'Love, Dating & Marriage — MAINLAND',cat:'Marriage',loc:'Mainland',dateText:'Sun 13th Sept',time:'4:30 PM',day:13,start:'2026-09-13T16:30',end:'2026-09-13T19:00',note:'Anniversary Edition · Victory Dome, Amuwo Odofin, Lagos'},
+ {id:'elevate',title:'Elevate Ghana 2026',cat:'Conference',loc:'Ghana',dateText:'Fri 18th – Sun 20th Sept',time:'All Day',day:18,start:'2026-09-18T09:00',end:'2026-09-20T18:00',note:'Accra, Ghana',reg:'https://davidschristiancentre.org'},
+ {id:'novelty',title:'Novelty Match',cat:'Games',loc:'Mainland',dateText:'Fri 18th – Sun 20th Sept',time:'All Day',day:18,start:'2026-09-18T09:00',end:'2026-09-20T18:00',note:'Unity Primary School, Mile 2 Estate, by Adeola Johnson Str, Jakande Estate, Amuwo Odofin, Lagos (Mainland)'},
+ {id:'comedy',title:'Comedy Goes 2 Church — Anniversary Edition',cat:'Comedy',loc:'Island',dateText:'Fri 25th Sept',time:'6:00 PM',day:25,start:'2026-09-25T18:00',end:'2026-09-25T21:00',note:'Island only · Lekki, Lagos'},
+ {id:'praise',title:'Praise Night & Album Launch',cat:'Music',loc:'Mainland',dateText:'Sat 26th Sept',time:'4:30 PM',day:26,start:'2026-09-26T16:30',end:'2026-09-26T21:00',note:"David's Music · Mainland only · Victory Dome, Amuwo Odofin"},
+ {id:'awards',title:'DCC Excellence Awards & Workers Appreciation',cat:'Awards',loc:'Mainland',dateText:'Sun 27th Sept',time:'4:30 PM',day:27,start:'2026-09-27T16:30',end:'2026-09-27T20:00',note:'Mainland only · Victory Dome, Amuwo Odofin',reg:'https://davidschristiancentre.org'},
+ {id:'blueprint',title:'The Blueprint — Anniversary Edition',cat:'Teaching',loc:'Mainland & Island',dateText:'All Tues & Weds in Sept',time:'6:30 PM',day:1,start:'2026-09-01T18:30',end:'2026-09-30T20:00',note:'Same time on both campuses · Mainland and Island'}
+];
+let custom=JSON.parse(localStorage.getItem('dcc30Events')||'[]');
+let overrides=JSON.parse(localStorage.getItem('dcc30Overrides')||'{}');
+let publishedStories=[];
+let filterLoc='All',query='';
+const $=id=>document.getElementById(id);
+const grid=$('grid');
+const mergeO=e=>overrides[e.id]?{...e,...overrides[e.id]}:e;
+const all=()=>[...BASE_EVENTS.map(mergeO),...custom.map(mergeO)];
+function flyersOf(e){
+  let f=e.flyer||EVENT_FLYERS[e.id]||PLACEHOLDER_FLYER;
+  if(typeof f==='string')return f.split(',').map(s=>s.trim()).filter(Boolean);
+  return f;
+}
+fetch('dcc30-data.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{
+  if(!d)return;
+  overrides={...(d.overrides||{}),...overrides};
+  const pc=(d.custom||[]).filter(c=>!custom.some(x=>x.id===c.id));
+  custom=[...pc,...custom];
+  if(Array.isArray(d.stories))publishedStories=d.stories;
+  render();renderWall();
+}).catch(()=>{});
+
+/* ================= RENDER SCHEDULE ================= */
+function card(e,i){
+  const c=CATS[e.cat]||CATS.Special;
+  const fl=flyersOf(e),first=fl[0];
+  const d=e.start?new Date(e.start):null;
+  const badge=d?`<span class="d">${d.getDate()}</span><span class="m">${d.toLocaleString('en',{month:'short'}).toUpperCase()}</span>`:`<span class="d">★</span><span class="m">SEPT</span>`;
+  return `<article class="event-card" style="--ac:${c.c};animation-delay:${i*70}ms" data-id="${e.id}">
+    ${e.custom?`<button class="del" data-id="${e.id}" title="Remove event">✕</button>`:''}
+    <button class="editb" data-id="${e.id}" title="Edit event (staff)">✏️</button>
+    <div class="flyer" data-fi="0">
+      <img src="${first}" alt="${e.title} flyer" loading="lazy" onerror="flyerErr(this)">
+      <div class="flyer-ph" style="display:none"><span class="em">${c.e}</span><span class="t">${e.title}</span></div>
+      ${fl.length>1?`<button class="fnav prev" data-dir="-1">‹</button><button class="fnav next" data-dir="1">›</button><span class="flyer-count">🖼️ ${fl.length}</span>`:''}
+    </div>
+    <div class="card-body">
+      <div class="date-badge">${badge}</div>
+      <div class="info">
+        <div class="tags">
+          <span class="tag-cat">${c.e} ${e.cat.toUpperCase()}</span>
+          <span class="tag-loc">📍 ${e.loc.toUpperCase()}</span>
+          ${e.rec?'<span class="tag-reg">🔁 EVERY SUNDAY</span>':''}
+          ${e.reg?'<span class="tag-reg">🎟️ REGISTRATION REQUIRED</span>':''}
+          ${e.custom?'<span class="tag-new">✚ NEW</span>':''}
+        </div>
+        <h3>${e.title}</h3>
+        <p class="when">📅 ${e.dateText||'TBA'} ${e.time?'· 🕒 '+e.time:''}</p>
+        ${e.note?`<p class="note">${e.note}</p>`:''}
+        <p class="evcd" data-start="${e.rec?'':(e.start||'')}" ${e.rec?`data-rec-days="${e.rec.sun.join(',')}" data-rec-times="${e.rec.times.join(',')}"`:''}></p>
+        <div class="card-actions">
+          ${e.reg?`<a class="reg" href="${e.reg}" target="_blank" rel="noopener">🎟️ REGISTER</a>`:''}
+          <button class="shr" data-id="${e.id}">📤 SHARE FLYER</button>
+          <button class="ics" data-id="${e.id}">📅 CALENDAR</button>
+          <button class="edt admin-only" data-id="${e.id}">✏️ EDIT</button>
+        </div>
+      </div>
+    </div>
+  </article>`;
+}
+function flyerErr(img){
+  if(img.dataset.fb||img.src.endsWith('flyers/grow.png')){img.style.display='none';const ph=img.nextElementSibling;if(ph)ph.style.display='flex';}
+  else{img.dataset.fb='1';img.src=PLACEHOLDER_FLYER;}
+}
+function updateEvCountdowns(){
+  document.querySelectorAll('.evcd').forEach(el=>{
+    if(el.dataset.recDays){
+      const days=el.dataset.recDays.split(',').map(Number);
+      const times=el.dataset.recTimes.split(',');
+      const now=Date.now();let next=null,nt='';
+      for(const d of days)for(const t of times){
+        const dt=new Date(2026,8,d,+t.split(':')[0],+t.split(':')[1]);
+        if(dt.getTime()>now&&(!next||dt<next)){next=dt;nt=t;}
+      }
+      if(!next){el.textContent='🎉 COMPLETED FOR SEPTEMBER — SEE YOU NEXT YEAR!';return;}
+      const diff=next-Date.now();
+      const dd=Math.floor(diff/864e5),hh=Math.floor(diff/36e5)%24,mm=Math.floor(diff/6e4)%60;
+      const h24=+nt.split(':')[0],ap=h24>=12?'PM':'AM',h12=h24%12||12;
+      el.textContent=`⏳ NEXT: SUN ${next.getDate()} SEPT · ${h12}:${nt.split(':')[1]} ${ap} — IN ${dd}d ${hh}h ${mm}m`;
+      return;
+    }
+    if(!el.dataset.start){el.textContent='';return;}
+    const s=new Date(el.dataset.start);let diff=s-Date.now();
+    if(diff<=0){el.textContent='🎉 STARTED / IN PROGRESS';return;}
+    const d=Math.floor(diff/864e5),h=Math.floor(diff/36e5)%24,m=Math.floor(diff/6e4)%60;
+    el.textContent=`⏳ STARTS IN ${d}d ${h}h ${m}m`;
+  });
+}
+setInterval(updateEvCountdowns,1000);
+function buildCapOptions(){
+  const sel=$('capEvent'),cur=sel.value;sel.innerHTML='';
+  sel.add(new Option('💜 General Anniversary','general'));
+  all().forEach(e=>sel.add(new Option(e.title,e.id)));
+  if(cur&&[...sel.options].some(o=>o.value===cur))sel.value=cur;
+}
+function render(){
+  const list=all()
+    .filter(e=>filterLoc==='All'||(e.loc||'').toLowerCase().includes(filterLoc.toLowerCase()))
+    .filter(e=>e.title.toLowerCase().includes(query))
+    .sort((a,b)=>(a.day||99)-(b.day||99));
+  grid.innerHTML=list.map(card).join('')||`<p class="empty">No events match — try another filter.</p>`;
+  buildCapOptions();updateEvCountdowns();
+}
+render();
+
+$('chips').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));b.classList.add('active');filterLoc=b.dataset.loc;render();});
+$('searchBox').addEventListener('input',e=>{query=e.target.value.toLowerCase();render();});
+
+/* ============ FLYER SHARE ============ */
+function currentFlyer(btn){
+  const art=btn.closest('.event-card');const ev=all().find(x=>x.id===btn.dataset.id);
+  const fi=+(art.querySelector('.flyer').dataset.fi||0);
+  return {ev,src:flyersOf(ev)[fi]||PLACEHOLDER_FLYER};
+}
+function exportFlyer(src,title,cb){
+  const img=new Image();
+  img.onload=()=>{const c=document.createElement('canvas');c.width=1080;c.height=1350;const x=c.getContext('2d');
+    x.fillStyle='#ffffff';x.fillRect(0,0,1080,1350);
+    const s=Math.min(1080/img.width,1350/img.height),dw=img.width*s,dh=img.height*s;
+    x.drawImage(img,(1080-dw)/2,(1350-dh)/2,dw,dh);
+    c.toBlob(b=>cb(b),'image/png');};
+  img.onerror=()=>alert('Could not load the flyer image.');
+  img.src=src;
+}
+function blobDownload(b,name){const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;a.click();URL.revokeObjectURL(a.href);}
+function shareFlyer(src,title){
+  exportFlyer(src,title,async b=>{
+    const f=new File([b],title.replace(/[^\w]+/g,'-')+'-1080x1350.png',{type:'image/png'});
+    if(navigator.canShare&&navigator.canShare({files:[f]})){try{await navigator.share({files:[f],title:'DCC @30',text:"This is what 30 looks like — it's YOU! 💜 #30IsYou"});return;}catch(e){return;}}
+    blobDownload(b,f.name);
+  });
+}
+grid.addEventListener('click',e=>{
+  const del=e.target.closest('.del');
+  if(del){if(adminMode&&confirm('Remove this event?')){custom=custom.filter(x=>x.id!==del.dataset.id);localStorage.setItem('dcc30Events',JSON.stringify(custom));render();}return;}
+  const ed=e.target.closest('.editb')||e.target.closest('.edt');
+  if(ed){openEdit(ed.dataset.id);return;}
+  const fn=e.target.closest('.fnav');
+  if(fn){const fly=fn.closest('.flyer');const ev=all().find(x=>x.id===fly.closest('.event-card').dataset.id);const fl=flyersOf(ev);
+    let fi=(+fly.dataset.fi + +fn.dataset.dir + fl.length)%fl.length;fly.dataset.fi=fi;
+    const img=fly.querySelector('img');img.style.display='block';img.src=fl[fi];fly.querySelector('.flyer-ph').style.display='none';return;}
+  const sh=e.target.closest('.shr');
+  if(sh){const {ev,src}=currentFlyer(sh);shareFlyer(src,ev.title);return;}
+  const ics=e.target.closest('.ics');
+  if(ics){const ev=all().find(x=>x.id===ics.dataset.id);if(ev)downloadICS(ev);}
+});
+function toICS(iso){const d=new Date(iso),p=n=>String(n).padStart(2,'0');return d.getFullYear()+p(d.getMonth()+1)+p(d.getDate())+'T'+p(d.getHours())+p(d.getMinutes())+'00';}
+function downloadICS(e){
+  const s=toICS(e.start),en=toICS(e.end||e.start);
+  const ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//DCC30//EN','BEGIN:VEVENT','UID:'+e.id+'@davidschristiancentre.org','DTSTAMP:'+s,'DTSTART:'+s,'DTEND:'+en,'SUMMARY:'+e.title+' (#30IsYou #DCCat30)','LOCATION:David\'s Christian Centre - '+e.loc,'DESCRIPTION:'+(e.note||'Victory Celebration - 30 Years Anniversary - #30IsYou')+(e.reg?' | Register: '+e.reg:''),'END:VEVENT','END:VCALENDAR'].join('\r\n');
+  blobDownload(new Blob([ics],{type:'text/calendar'}),e.title.replace(/[^\w]+/g,'-')+'.ics');
+}
+
+/* ============ ADD / EDIT (STAFF) ============ */
+let pendingFlyer=null;
+function openModal(){
+  if(!adminMode){unlockAdmin();if(!adminMode)return;}
+  const f=$('eventForm');f.reset();f.editId.value='';pendingFlyer=null;$('flyerNote').textContent='';
+  $('resetEv').style.display='none';
+  $('modalTitle').textContent='ADD A NEW EVENT';
+  $('overlay').classList.add('open');
+}
+function openEdit(id){
+  if(!adminMode){unlockAdmin();if(!adminMode)return;}
+  const ev=all().find(x=>x.id===id);if(!ev)return;
+  const f=$('eventForm');f.reset();pendingFlyer=null;$('flyerNote').textContent='';
+  f.editId.value=id;f.title.value=ev.title;f.cat.value=ev.cat;f.loc.value=ev.loc;
+  f.dateText.value=ev.dateText||'';f.note.value=ev.note||'';f.reg.value=ev.reg||'';
+  f.flyer.value=(typeof ev.flyer==='string'&&!ev.flyer.startsWith('data:'))?ev.flyer:'';
+  if(ev.start){const d=new Date(ev.start),p=n=>String(n).padStart(2,'0');
+    f.date.value=`${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())}`;
+    f.time.value=`${p(d.getHours())}:${p(d.getMinutes())}`;}
+  $('resetEv').style.display=overrides[id]?'inline-flex':'none';
+  $('modalTitle').textContent='✏️ EDIT: '+ev.title;
+  $('overlay').classList.add('open');
+}
+function resetEvent(){
+  const id=document.querySelector('[name=editId]').value;
+  if(id&&overrides[id]&&confirm('Restore this event to its original details?')){
+    delete overrides[id];localStorage.setItem('dcc30Overrides',JSON.stringify(overrides));
+    closeModal();render();
+  }
+}
+function closeModal(){$('overlay').classList.remove('open');}
+$('overlay').addEventListener('click',e=>{if(e.target.id==='overlay')closeModal();});
+document.querySelector('[name=flyerFile]').addEventListener('change',e=>{
+  const file=e.target.files[0];if(!file)return;
+  fileToData(file,1080,(url)=>{pendingFlyer=url;$('flyerNote').textContent='✅ Flyer loaded — will be saved with the event.';});
+});
+function to12(t){let[h,m]=t.split(':').map(Number);const ap=h>=12?'PM':'AM';h=h%12||12;return h+':'+String(m).padStart(2,'0')+' '+ap;}
+$('eventForm').addEventListener('submit',ev=>{
+  ev.preventDefault();
+  const f=new FormData(ev.target);const editId=f.get('editId');
+  const start=f.get('date')?new Date(f.get('date')+'T'+(f.get('time')||'18:00')):null;
+  const end=f.get('end')?new Date(f.get('end')+'T20:00'):null;
+  const flyerVal=pendingFlyer||(f.get('flyer')||'').trim()||null;
+  if(editId){
+    const orig=all().find(x=>x.id===editId)||{};
+    const ov={title:f.get('title').trim(),cat:f.get('cat'),loc:f.get('loc'),
+      dateText:f.get('dateText')||orig.dateText||'TBA',
+      time:f.get('time')?to12(f.get('time')):(orig.time||''),
+      note:f.get('note'),reg:f.get('reg').trim()||null};
+    if(flyerVal)ov.flyer=flyerVal;
+    if(start){ov.day=start.getDate();ov.start=start.toISOString();ov.end=end?end.toISOString():(orig.end||null);}
+    overrides[editId]={...overrides[editId],...ov};
+    localStorage.setItem('dcc30Overrides',JSON.stringify(overrides));
+  }else{
+    custom.push({id:'custom-'+Date.now(),custom:true,title:f.get('title').trim(),cat:f.get('cat'),loc:f.get('loc'),
+      dateText:f.get('dateText')||(start?start.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',year:'numeric'}):'TBA'),
+      time:f.get('time')?to12(f.get('time')):'',note:f.get('note'),flyer:flyerVal,reg:f.get('reg').trim()||null,
+      day:start?start.getDate():30,start:start?start.toISOString():null,end:end?end.toISOString():null});
+    localStorage.setItem('dcc30Events',JSON.stringify(custom));
+  }
+  closeModal();render();burst(180);
+  $('schedule').scrollIntoView({behavior:'smooth'});
+});
+function publishData(){
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([JSON.stringify({overrides,custom,stories:allStories()})],{type:'application/json'}));
+  a.download='dcc30-data.json';a.click();URL.revokeObjectURL(a.href);
+  alert('⬇️ dcc30-data.json downloaded (events + story wall)!\n\nUpload it next to index.html on your hosting — every visitor automatically sees the updates.');
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   🧱 STORY WALL — PERMANENT & SHARED
+   🌐 FREE LIVE SHARED WALL (5-minute setup, optional):
+   1. Go to sheets.new → create a Google Sheet.
+   2. Extensions → Apps Script → delete all → paste:
+
+      function doGet(){
+        var ss=SpreadsheetApp.getActiveSpreadsheet();
+        var sh=ss.getSheetByName('stories')||ss.insertSheet('stories');
+        var v=sh.getDataRange().getValues();var out=[];
+        for(var i=1;i<v.length;i++){if(v[i][0])out.push({id:v[i][0],name:v[i][1],story:v[i][2],years:v[i][3],campus:v[i][4],photo:v[i][5],thumb:v[i][5],date:v[i][6]});}
+        return ContentService.createTextOutput(JSON.stringify(out)).setMimeType(ContentService.MimeType.JSON);
+      }
+      function doPost(e){
+        var ss=SpreadsheetApp.getActiveSpreadsheet();
+        var sh=ss.getSheetByName('stories')||ss.insertSheet('stories');
+        if(sh.getLastRow()===0)sh.appendRow(['id','name','story','years','campus','photo','date']);
+        var b=JSON.parse(e.postData.contents);
+        sh.appendRow([b.id,b.name,b.story,b.years||'',b.campus||'',(b.thumb||b.photo||'').substring(0,49000),new Date().toISOString()]);
+        return ContentService.createTextOutput('ok');
+      }
+
+   3. Deploy → New deployment → Web app → Execute as: Me · Access: Anyone → Deploy.
+   4. Paste the Web app URL between the quotes below. ✅
+   ═══════════════════════════════════════════════════════════════ */
+const STORIES_API=''; // ← paste your Google Apps Script web app URL here
+let stories=JSON.parse(localStorage.getItem('dcc30Stories')||'[]');
+let apiStories=[];
+function allStories(){
+  const map=new Map();
+  [...publishedStories,...apiStories,...stories].forEach(s=>{if(s&&s.id)map.set(s.id,s);});
+  return [...map.values()];
+}
+function loadApiStories(){
+  if(!STORIES_API)return;
+  fetch(STORIES_API,{cache:'no-cache'}).then(r=>r.json()).then(list=>{if(Array.isArray(list)){apiStories=list;renderWall();}}).catch(()=>{});
+}
+loadApiStories();
+
+/* ============  SHARE YOUR DCC STORY ============ */
+const TC=$('storyCanvas'),TX=TC.getContext('2d');
+let storyPhoto=null,storyThumb=null,storyImg=null;
+function fileToData(file,max,cb){
+  const r=new FileReader();
+  r.onload=ev=>{const img=new Image();img.onload=()=>{
+    const s=Math.min(max/img.width,max/img.height,1);
+    const w=Math.max(1,Math.round(img.width*s)),h=Math.max(1,Math.round(img.height*s));
+    const c=document.createElement('canvas');c.width=w;c.height=h;
+    c.getContext('2d').drawImage(img,0,0,w,h);
+    cb(c.toDataURL('image/jpeg',.85));
+  };img.src=ev.target.result;};
+  r.readAsDataURL(file);
+}
+$('stPhoto').addEventListener('change',e=>{
+  const f=e.target.files[0];if(!f)return;
+  fileToData(f,600,url=>{storyPhoto=url;const im=new Image();im.onload=()=>{storyImg=im;drawStory();};im.src=url;});
+  fileToData(f,160,url=>{storyThumb=url;});
+});
+['stName','stYears','stCampus','stText'].forEach(id=>$(id).addEventListener('input',drawStory));
+function storyTextVersion(){
+  const n=$('stName').value.trim()||'A DCC Family Member';
+  const y=$('stYears').value,c=$('stCampus').value,t=$('stText').value.trim();
+  return `MY DCC @30 STORY 🙌\nI'm ${n}${y?' ('+y+' at DCC)':''}${c?' · watching from '+c:''}.\n"${t}"\n#30IsYou #MyDCCStory #DCCat30 #ThisIsWhat30LooksLike #WiredToWin`;
+}
+function drawStory(){
+  const W=1080,H=1350;TX.clearRect(0,0,W,H);
+  TX.fillStyle='#fbf9ff';TX.fillRect(0,0,W,H);
+  TX.strokeStyle='#6d28d9';TX.lineWidth=30;TX.strokeRect(15,15,W-30,H-30);
+  TX.strokeStyle='#fff';TX.lineWidth=6;TX.strokeRect(40,40,W-80,H-80);
+  const g=TX.createLinearGradient(0,42,W,42);g.addColorStop(0,'#6d28d9');g.addColorStop(1,'#9333ea');
+  TX.fillStyle=g;TX.fillRect(42,42,W-84,200);
+  TX.fillStyle='#fff';TX.textAlign='center';TX.textBaseline='middle';
+  TX.font='800 26px Montserrat';TX.fillText("DAVID'S CHRISTIAN CENTRE · 30 YEARS · EVERY NATION",W/2,100);
+  TX.font='900 92px "Bebas Neue"';TX.fillText('MY DCC @30 STORY',W/2,178);
+  const name=$('stName').value.trim()||'Your Name Here';
+  const yrs=$('stYears').value,campus=$('stCampus').value;
+  if(storyImg){
+    TX.save();TX.beginPath();TX.arc(170,370,110,0,7);TX.clip();
+    const s=Math.max(220/storyImg.width,220/storyImg.height);
+    TX.drawImage(storyImg,170-storyImg.width*s/2,370-storyImg.height*s/2,storyImg.width*s,storyImg.height*s);
+    TX.restore();
+    TX.strokeStyle='#9333ea';TX.lineWidth=8;TX.beginPath();TX.arc(170,370,114,0,7);TX.stroke();
+  }else{
+    TX.fillStyle='#9333ea';TX.beginPath();TX.arc(170,370,110,0,7);TX.fill();
+    TX.fillStyle='#fff';TX.font='900 90px "Bebas Neue"';TX.fillText('30',170,376);
+  }
+  TX.textAlign='left';TX.fillStyle='#3b1a70';TX.font='800 46px Montserrat';
+  TX.fillText(name.slice(0,24),320,350);
+  TX.fillStyle='#6b6480';TX.font='800 28px Montserrat';
+  TX.fillText([yrs,campus].filter(Boolean).join(' · ')||'DCC FAMILY · WORLDWIDE',320,405);
+  TX.strokeStyle='#e5e0f5';TX.lineWidth=3;TX.beginPath();TX.moveTo(80,510);TX.lineTo(W-80,510);TX.stroke();
+  const story=$('stText').value.trim()||'Write your story on the left and watch your shareable card appear here… ✨';
+  TX.fillStyle='#241b3a';TX.font='600 34px Montserrat';
+  const maxW=W-170,lh=52,maxY=H-230;let y=575;
+  const words=story.split(/\s+/);let line='',lines=[];
+  for(const w of words){const t=line?line+' '+w:w;
+    if(TX.measureText(t).width>maxW&&line){lines.push(line);line=w;}else line=t;}
+  if(line)lines.push(line);
+  while(lines.length&&y+(lines.length-1)*lh>maxY)lines.pop();
+  TX.textBaseline='alphabetic';
+  lines.forEach((ln,i)=>{TX.fillText(ln,85,y+i*lh);});
+  TX.fillStyle='#0f9d76';TX.fillRect(42,H-162,W-84,120);
+  TX.fillStyle='#fff';TX.textAlign='center';TX.textBaseline='middle';
+  TX.font='900 44px "Bebas Neue"';TX.fillText('#30IsYou · #MyDCCStory',W/2,H-118);
+  TX.font='700 24px Montserrat';TX.fillText('davidschristiancentre.org',W/2,H-76);
+}
+drawStory();
+$('stDownload').addEventListener('click',()=>{const a=document.createElement('a');a.href=TC.toDataURL('image/png');a.download='My-DCC-Story.png';a.click();burst(160);});
+$('stShare').addEventListener('click',()=>{TC.toBlob(async b=>{
+  const f=new File([b],'My-DCC-Story.png',{type:'image/png'});
+  const text=storyTextVersion();
+  if(navigator.canShare&&navigator.canShare({files:[f]})){try{await navigator.share({files:[f],title:'My DCC @30 Story',text});return;}catch(e){return;}}
+  blobDownload(b,f.name);
+});});
+$('stCopy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(storyTextVersion());alert('📋 Story copied! Paste it anywhere. 🎉');}catch(e){alert(storyTextVersion());}});
+$('stWa').addEventListener('click',()=>{window.open('https://wa.me/2348077714411?text='+encodeURIComponent(storyTextVersion()),'_blank');});
+function renderWall(){
+  const list=allStories();
+  $('wallCount').textContent=list.length?`${list.length} ${list.length===1?'STORY':'STORIES'} & COUNTING — FROM EVERY NATION 🌍`:'BE THE FIRST TO SHARE!';
+  $('wall').innerHTML=list.slice().reverse().map((s,i)=>`
+    <div class="wall-card" style="animation-delay:${i*60}ms">
+      <div class="wc-head">
+        ${(s.photo||s.thumb)?`<img src="${s.photo||s.thumb}" alt="${s.name}">`:`<span class="wc-ava">${(s.name||'D').slice(0,1).toUpperCase()}</span>`}
+        <div class="wc-name"><b>${s.name}</b><span>${[s.years,s.campus].filter(Boolean).join(' · ')||'DCC FAMILY · WORLDWIDE'} · #30IsYou</span></div>
+      </div>
+      <p class="wc-story">${String(s.story||'').replace(/</g,'&lt;')}</p>
+      <div class="card-actions"><button class="shr" data-wi="${s.id}">📤 SHARE</button></div>
+    </div>`).join('')||`<p class="empty">🙌 No stories on the wall yet — be the first to share yours above!</p>`;
+}
+renderWall();
+$('wall').addEventListener('click',e=>{
+  const b=e.target.closest('[data-wi]');if(!b)return;
+  const s=allStories().find(x=>x.id===b.dataset.wi);if(!s)return;
+  const txt=`MY DCC @30 STORY 🙌\nI'm ${s.name}${s.years?' ('+s.years+' at DCC)':''}.\n"${s.story}"\n#30IsYou #MyDCCStory #DCCat30`;
+  if(navigator.share){navigator.share({title:'My DCC @30 Story',text:txt}).catch(()=>{});}
+  else{navigator.clipboard&&navigator.clipboard.writeText(txt);alert('📋 Copied — paste it on your socials!');}
+});
+$('stPost').addEventListener('click',()=>{
+  const name=$('stName').value.trim(),story=$('stText').value.trim();
+  if(!name||!story){alert('Please enter your NAME and YOUR STORY first. 💜');return;}
+  const s={id:'st-'+Date.now(),name,story,photo:storyPhoto,thumb:storyThumb||storyPhoto,years:$('stYears').value,campus:$('stCampus').value,date:new Date().toISOString()};
+  stories.push(s);
+  try{localStorage.setItem('dcc30Stories',JSON.stringify(stories));}
+  catch(e){try{localStorage.setItem('dcc30Stories',JSON.stringify(stories.map(x=>({...x,photo:x.thumb||''}))))}catch(e2){}}
+  if(STORIES_API){
+    fetch(STORIES_API,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({...s,photo:s.thumb||''})})
+      .then(()=>loadApiStories()).catch(()=>{});
+  }
+  renderWall();burst(200);
+  document.querySelector('.wall-head').scrollIntoView({behavior:'smooth'});
+});
+
+/* ============ FRAME STUDIO ============ */
+const SC=$('studioCanvas'),SX=SC.getContext('2d');
+let photo=null,zoom=1,offX=0,offY=0,frameStyle='classic';
+function rr(x,y,w,h,r){SX.beginPath();SX.moveTo(x+r,y);SX.arcTo(x+w,y,x+w,y+h,r);SX.arcTo(x+w,y+h,x,y+h,r);SX.arcTo(x,y+h,x,y,r);SX.arcTo(x,y,x+w,y,r);SX.closePath();}
+$('photoInput').addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=ev=>{const img=new Image();img.onload=()=>{photo=img;offX=offY=0;zoom=1;$('zoomRange').value=1;drawStudio();burst(120);};img.src=ev.target.result;};r.readAsDataURL(f);});
+$('zoomRange').addEventListener('input',e=>{zoom=+e.target.value;drawStudio();});
+$('styleSel').addEventListener('change',e=>{frameStyle=e.target.value;drawStudio();});
+$('fmtSel').addEventListener('change',e=>{SC.height=+e.target.value;drawStudio();});
+$('nameInput').addEventListener('input',drawStudio);
+let drag=null;
+SC.addEventListener('pointerdown',e=>{drag={x:e.clientX,y:e.clientY,ox:offX,oy:offY};SC.setPointerCapture(e.pointerId);});
+SC.addEventListener('pointermove',e=>{if(!drag)return;const k=1080/SC.getBoundingClientRect().width;offX=Math.max(-700,Math.min(700,drag.ox+(e.clientX-drag.x)*k));offY=Math.max(-700,Math.min(700,drag.oy+(e.clientY-drag.y)*k));drawStudio();});
+SC.addEventListener('pointerup',()=>drag=null);
+function drawStudio(){
+  const W=1080,H=SC.height,circle=frameStyle==='circle',cy=Math.round(H*0.42);
+  SX.clearRect(0,0,W,H);
+  if(circle){
+    const g=SX.createLinearGradient(0,0,W,H);g.addColorStop(0,'#6d28d9');g.addColorStop(1,'#3b1a70');
+    SX.fillStyle=g;SX.fillRect(0,0,W,H);
+    SX.strokeStyle='rgba(255,255,255,.2)';SX.lineWidth=3;
+    for(let r=440;r<W+260;r+=60){SX.beginPath();SX.arc(W/2,cy,r,0,7);SX.stroke();}
+  }else{
+    SX.fillStyle='#efe6ff';SX.fillRect(0,0,W,H);
+    SX.strokeStyle='rgba(147,51,234,.15)';SX.lineWidth=3;
+    for(let r=80;r<W;r+=110){SX.beginPath();SX.arc(W/2,H/2,r,0,7);SX.stroke();}
+  }
+  if(photo){
+    const sc=Math.max(W/photo.width,(circle?800:H)/photo.height)*zoom,dw=photo.width*sc,dh=photo.height*sc;
+    SX.save();
+    if(circle){SX.beginPath();SX.arc(W/2,cy,400,0,7);SX.clip();}
+    SX.drawImage(photo,(W-dw)/2+offX,(circle?cy-dh/2+offY:(H-dh)/2+offY),dw,dh);
+    SX.restore();
+  }else{
+    SX.fillStyle=circle?'rgba(255,255,255,.55)':'rgba(109,40,217,.35)';
+    SX.textAlign='center';SX.textBaseline='middle';SX.font='900 100px "Bebas Neue"';
+    const my=circle?cy:H/2;
+    SX.fillText('YOUR PHOTO',W/2,my-55);SX.fillText('HERE',W/2,my+55);
+  }
+  const name=$('nameInput').value.trim();
+  if(frameStyle==='classic')drawClassic(name,H);
+  else if(frameStyle==='victory')drawVictory(name,H);
+  else drawCircleFrame(name,H);
+}
+function drawClassic(name,H){
+  const W=1080,b=36;
+  const g=SX.createLinearGradient(0,0,W,H);g.addColorStop(0,'#6d28d9');g.addColorStop(1,'#9333ea');
+  SX.strokeStyle=g;SX.lineWidth=b;SX.strokeRect(b/2,b/2,W-b,H-b);
+  SX.strokeStyle='#fff';SX.lineWidth=6;SX.strokeRect(b+8,b+8,W-2*(b+8),H-2*(b+8));
+  SX.fillStyle='#0f9d76';rr(60,60,470,64,10);SX.fill();
+  SX.fillStyle='#fff';SX.font='800 24px Montserrat';SX.textAlign='center';SX.textBaseline='middle';SX.fillText('YEARS ANNIVERSARY · WIRED TO WIN',295,93);
+  SX.fillStyle='#6d28d9';SX.beginPath();SX.arc(W-120,120,64,0,7);SX.fill();SX.strokeStyle='#fff';SX.lineWidth=6;SX.stroke();
+  SX.fillStyle='#fff';SX.font='900 64px "Bebas Neue"';SX.fillText('30',W-120,126);
+  const bh=240,bt=H-b-bh;
+  const g2=SX.createLinearGradient(0,bt,W,bt);g2.addColorStop(0,'rgba(109,40,217,.97)');g2.addColorStop(1,'rgba(147,51,234,.97)');
+  SX.fillStyle=g2;SX.fillRect(b,bt,W-2*b,bh);
+  SX.textBaseline='alphabetic';SX.textAlign='left';
+  SX.fillStyle='#fff';SX.font='900 76px "Bebas Neue"';SX.fillText('THIS IS WHAT',70,bt+92);
+  SX.fillStyle='#fbbf24';SX.font='900 118px "Bebas Neue"';SX.fillText('30',70,bt+206);
+  const w30=SX.measureText('30').width;
+  SX.fillStyle='#fff';SX.font='900 92px "Bebas Neue"';SX.fillText('LOOKS LIKE',96+w30,bt+204);
+  SX.textAlign='right';SX.font='800 30px Montserrat';SX.fillStyle='#f3e8ff';SX.fillText('#30IsYou',W-70,bt+80);
+  if(name)SX.fillText(name,W-70,bt+130);
+}
+function drawVictory(name,H){
+  const W=1080,b=36;
+  SX.strokeStyle='#0f9d76';SX.lineWidth=b;SX.strokeRect(b/2,b/2,W-b,H-b);
+  SX.strokeStyle='#fff';SX.lineWidth=6;SX.strokeRect(b+8,b+8,W-2*(b+8),H-2*(b+8));
+  SX.fillStyle='rgba(255,255,255,.92)';rr(60,60,700,190,18);SX.fill();
+  SX.textAlign='left';SX.textBaseline='alphabetic';
+  SX.fillStyle='#0b7a5c';SX.font='800 28px Montserrat';SX.fillText("DAVID'S CHRISTIAN CENTRE",90,110);
+  SX.font='900 74px "Bebas Neue"';SX.fillText('VICTORY CELEBRATIONS',90,182);
+  SX.font='800 30px Montserrat';SX.fillText('SEPTEMBER 2026 · #30ISYOU',90,228);
+  if(name){SX.fillStyle='#0b7a5c';rr(W-420,60,360,64,32);SX.fill();SX.fillStyle='#fff';SX.font='800 26px Montserrat';SX.textAlign='center';SX.textBaseline='middle';SX.fillText(name,W-240,93);}
+  SX.fillStyle='#0b7a5c';
+  SX.beginPath();SX.moveTo(40,H-150);SX.lineTo(120,H-150);SX.lineTo(120,H-50);SX.lineTo(40,H-50);SX.lineTo(80,H-100);SX.closePath();SX.fill();
+  SX.beginPath();SX.moveTo(W-40,H-150);SX.lineTo(W-120,H-150);SX.lineTo(W-120,H-50);SX.lineTo(W-40,H-50);SX.lineTo(W-80,H-100);SX.closePath();SX.fill();
+  SX.fillStyle='#0f9d76';rr(90,H-165,W-180,115,14);SX.fill();
+  SX.fillStyle='#fff';SX.font='900 46px "Bebas Neue"';SX.textAlign='center';SX.textBaseline='middle';SX.fillText('30 YEARS ANNIVERSARY · WIRED TO WIN',W/2,H-106);
+}
+function drawCircleFrame(name,H){
+  const W=1080,cy=Math.round(H*0.42);
+  SX.strokeStyle='#fff';SX.lineWidth=16;SX.beginPath();SX.arc(W/2,cy,408,0,7);SX.stroke();
+  SX.strokeStyle='#f59e0b';SX.lineWidth=6;SX.beginPath();SX.arc(W/2,cy,426,0,7);SX.stroke();
+  SX.textAlign='center';SX.textBaseline='alphabetic';
+  SX.fillStyle='#f3e8ff';SX.font='800 30px Montserrat';SX.fillText('#30ISYOU · DAVID\'S CHRISTIAN CENTRE',W/2,80);
+  SX.fillStyle='#fff';SX.font='900 90px "Bebas Neue"';SX.fillText('DCC @30',W/2,170);
+  SX.fillStyle='#fff';rr(120,H-190,W-240,110,55);SX.fill();
+  SX.fillStyle='#6d28d9';SX.font='900 62px "Bebas Neue"';SX.textBaseline='middle';SX.fillText('THIS IS WHAT 30 LOOKS LIKE',W/2,H-133);
+  if(name){SX.fillStyle='#f3e8ff';SX.font='800 30px Montserrat';SX.fillText(name,W/2,H-45);}
+}
+drawStudio();
+if(document.fonts&&document.fonts.load)Promise.all([document.fonts.load('900 80px "Bebas Neue"'),document.fonts.load('800 30px "Montserrat"')]).then(()=>{drawStudio();drawStory();});
+$('downloadBtn').addEventListener('click',()=>{const a=document.createElement('a');a.href=SC.toDataURL('image/png');a.download='This-Is-What-30-Looks-Like-'+SC.height+'.png';a.click();burst(160);});
+$('shareBtn').addEventListener('click',()=>{SC.toBlob(async b=>{
+  const f=new File([b],'DCC30-frame.png',{type:'image/png'});
+  const text=$('capOut').value||"This is what 30 looks like — it's YOU! 💜 #30IsYou";
+  if(navigator.canShare&&navigator.canShare({files:[f]})){try{await navigator.share({files:[f],title:'DCC @30',text});return;}catch(e){return;}}
+  blobDownload(b,f.name);
+});});
+
+/* ============ AUTO CAPTION GENERATOR (#30IsYou) ============ */
+const rnd=a=>a[Math.floor(Math.random()*a.length)];
+const OP={
+ hype:['🔥 THIS IS WHAT 30 LOOKS LIKE — IT\'S YOU!','💥 WIRED TO WIN — 30 years strong!','🎉 DCC @30 season is OFFICIALLY on!','🙌 30 years of victory and counting!','💜 Thirty years of grace. One mighty God!','🥳 It\'s a celebration at David\'s Christian Centre!','✨ God has done great things — 30 years of DCC!','🎊 The VICTORY CELEBRATIONS are here!','🌍 From Lagos to the nations — 30 years of wins!'],
+ invite:['💌 You\'re specially invited!','🤍 Save the date — bring your family!','🙋 Come and see what God is doing at DCC!','💜 We\'re saving a seat for you!','🗓️ Mark your calendar — DCC @30!','🫶 Join the family as we celebrate 30 years!','📣 Consider this your official invite!','🕊️ Come worship, celebrate and give thanks with us!','🌍 Wherever you are — Mainland, Island, Ghana or the diaspora — you\'re invited!'],
+ thanks:['🙏 Thank You Jesus for 30 years!','💜 To God be all the glory!','🙌 30 years of grace — we\'re grateful!','🥹 From a vision to 30 years of victory!','✨ Great is Thy faithfulness!','🎉 We celebrate what God has done!','🙏 As David never lost a battle, neither have we!','💚 30 years of answered prayers!','💜 Everything we\'ve built for 30 years is YOU — #30IsYou!'],
+ fun:['😍 Say cheese — this is what 30 looks like! 📸',' Pull up! Anniversary season is ON!','😎 30 and glowing!','🥁 Can you hear the drums? DCC @30!','🎶 Praise, party & plenty reasons to celebrate!','🤩 Which event are you not missing? 👇',' Celebration mode: ACTIVATED!','🫣 Don\'t hear it from anybody — pull up yourself!','🪞 Look in the mirror — THIS is what 30 looks like: YOU! #30IsYou']
+};
+const GENMID=['A whole month of victory: Conference, Praise Party, Family Fun Day, Award Night & lots more!','All September long — Mainland, Island, Ghana & the diaspora celebrate together!','Conference, Thanksgiving, Family Fun Day, Awards… and lots more!','One family in Christ — countless lives touched across the nations!','Victory Celebrations Service holds EVERY Sunday — 7AM & 9AM Mainland, 11AM Island!','Streaming worldwide — join from anywhere on earth! 🌍'];
+const EVOPEN=['🎯 Next up:','⭐ Circle it on your calendar:','🚨 You don\'t want to miss this —','💜 Get ready for'];
+const WHEREV=['📍','️ Venue:',''];
+const REGV=['🎟️ Register:','🎟️ Secure your slot:','🔗 Registration:'];
+const EXTRA=['Tag someone who needs to see this! 👇','Share this with the DCC family — near & far! 💜','See you there — come with your dancing shoes! 💃','Bring a friend — victories are better together!','Make your frame & join the movement: #ThisIsWhat30LooksLike','Post your own story with #MyDCCStory!','God did it. God is doing it. God will again!','30 years down — forever to go!','You are the proof of what God has done — #30IsYou!'];
+const CTA=['Don\'t miss it!','Pull up!','Be there!','Join us!','Come and celebrate!','Let\'s make history together!','See you there!','No missing this one!'];
+const HASHSET=['#30IsYou #DCCat30 #ThisIsWhat30LooksLike #WiredToWin','#30IsYou #WiredToWin #DavidsChristianCentre','#30IsYou #ThisIsWhat30LooksLike #30YearsOfGrace','#30IsYou #VictoryCelebrations #DCCat30 #DavidsChristianCentre'];
+function genCaption(){
+  const tone=$('capTone').value,id=$('capEvent').value;
+  const ev=id==='general'?null:all().find(e=>e.id===id);
+  let mid;
+  if(ev){
+    const when=ev.rec?`${ev.dateText} · ${ev.time}`:`${ev.dateText||''}${ev.time?' · '+ev.time:''}`;
+    mid=`${rnd(EVOPEN)} ${ev.title} — ${when}.`;
+    mid+='\n'+rnd(WHEREV)+' '+(ev.note||ev.loc);
+    if(ev.reg)mid+='\n'+rnd(REGV)+' '+ev.reg;
+  }else{
+    mid='📅 September 2026\n'+rnd(GENMID);
+  }
+  $('capOut').value=`${rnd(OP[tone])}\n${mid}\n${rnd(EXTRA)}\n${rnd(CTA)} ${rnd(HASHSET)}`;
+  burst(80);
+}
+$('capGen').addEventListener('click',genCaption);
+$('capEvent').addEventListener('change',genCaption);
+$('capTone').addEventListener('change',genCaption);
+$('capCopy').addEventListener('click',async()=>{if(!$('capOut').value)genCaption();try{await navigator.clipboard.writeText($('capOut').value);alert('📋 Caption copied! Paste it on your socials. 🎉');}catch(e){$('capOut').select();document.execCommand('copy');}});
+$('capShare').addEventListener('click',async()=>{if(!$('capOut').value)genCaption();const txt=$('capOut').value;if(navigator.share){try{await navigator.share({title:'DCC @30',text:txt});}catch(e){}}else{try{await navigator.clipboard.writeText(txt);alert('📋 Copied — paste it on your socials!');}catch(e){}}});
+
+/* ============ COUNTDOWN / COUNTERS / CONFETTI ============ */
+const target=new Date('2026-09-01T18:00:00');
+function tick(){let diff=target-Date.now();if(diff<0)diff=0;$('cd-d').textContent=Math.floor(diff/864e5);$('cd-h').textContent=Math.floor(diff/36e5)%24;$('cd-m').textContent=Math.floor(diff/6e4)%60;$('cd-s').textContent=Math.floor(diff/1e3)%60;}
+tick();setInterval(tick,1000);
+const io=new IntersectionObserver(es=>es.forEach(en=>{if(!en.isIntersecting)return;const el=en.target;if(el.dataset.count){const t=+el.dataset.count,t0=performance.now();(function step(n){const p=Math.min((n-t0)/1200,1);el.textContent=Math.round(t*p);if(p<1)requestAnimationFrame(step);})(t0);}el.classList.add('in');io.unobserve(el);}),{threshold:.4});
+document.querySelectorAll('[data-count],.reveal').forEach(el=>io.observe(el));
+const cv=$('confetti'),cx=cv.getContext('2d');let P=[],run=false;
+function size(){cv.width=innerWidth;cv.height=innerHeight;}size();addEventListener('resize',size);
+const COLORS=['#7c3aed','#f59e0b','#0f9d76','#e11d48','#0ea5e9','#db2777','#9333ea'];
+function burst(n=160){for(let i=0;i<n;i++)P.push({x:Math.random()*cv.width,y:-20-Math.random()*cv.height*.3,w:6+Math.random()*7,h:8+Math.random()*8,c:COLORS[i%COLORS.length],vx:-2.5+Math.random()*5,vy:2+Math.random()*3.5,a:Math.random()*6.3,va:-.15+Math.random()*.3});if(!run){run=true;loop();}}
+function loop(){cx.clearRect(0,0,cv.width,cv.height);P.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.a+=p.va;p.vy+=.03;cx.save();cx.translate(p.x,p.y);cx.rotate(p.a);cx.fillStyle=p.c;cx.fillRect(-p.w/2,-p.h/2,p.w,p.h);cx.restore();});P=P.filter(p=>p.y<cv.height+30);if(P.length)requestAnimationFrame(loop);else{run=false;cx.clearRect(0,0,cv.width,cv.height);}}
+setTimeout(()=>burst(200),600);
+$('mq').innerHTML+=$('mq').innerHTML;
+genCaption();
+</script>
+</body>
+</html>
